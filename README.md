@@ -1,6 +1,6 @@
 # Webdevelopment-Demo
 
-HTML
-CSS
-JAVA SCRIPT
-REACT JS
+HTML,
+CSS,
+JAVA SCRIPT,
+REACT JS.
