@@ -1,0 +1,47 @@
+* body{
+    background-color: coral;
+    
+}
+.word{
+    text-align: center;
+    color: white;
+    background-color: black ;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    font-size: x-large;
+   
+    
+}
+.para{
+    color: #0d1504;
+    background-color: beige;
+    max-width: 50%;
+    margin: auto;
+    border: solid thin hsl(0, 85%, 3%);
+    padding: 10%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#root{
+    text-decoration-line: underline;
+    margin: 2px;
+    color: darkmagenta;
+    background-color: cornsilk;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+strong,i{
+    color: crimson;
+    border: solid thick rgb(15, 2, 4) ;
+    border-width: 0.5px;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 4px;
+}
+
+
