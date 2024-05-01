@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="us-en">
-    <head>
-        <title>INTERNAL</title>
-        <style>
-            h1{
-                color: blue;
-                background-color: cadetblue;
-                text-shadow: 12px;
-                text-size-adjust: 50%;
-                text-align: center ;
-            }
-            p{
-                color: chocolate;
-                background-attachment: fixed;
-                background-color: rgb(143, 182, 230);
-                font-size: x-large;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            span{
-                font-size: 50px;
-                color: hotpink;
-                
-            }
 
-        </style>
-    </head>
-    <body>
-        <h1><b>INTERNAL</b></h1>
-        <span>Internal element</span>
-        <p>To use internal CSS, include CSS rules within a  tag inside the html document’s .
-            Define styles by selecting HTML elements or classes and applying styling rules within the  tag.
-            All changes made via internal CSS apply only to that specific web page.
-        </p>
-    </body>
+<head>
+    <title>INTERNAL</title>
+    <style>
+        h1 {
+            color: blue;
+            background-color: cadetblue;
+            text-shadow: 12px;
+            text-size-adjust: 50%;
+            text-align: center;
+        }
+
+        p {
+            color: chocolate;
+            background-attachment: fixed;
+            background-color: rgb(143, 182, 230);
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        span {
+            font-size: 50px;
+            color: hotpink;
+
+        }
+
+        table {
+            width: 50%;
+            color: bisque;
+            background-color: brown;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 2px solid gray;
+            padding: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>INTERNAL</b></h1>
+    <span>Internal element</span>
+    <p>To use internal CSS, include CSS rules within a tag inside the html document’s .
+        Define styles by selecting HTML elements or classes and applying styling rules within the tag.
+        All changes made via internal CSS apply only to that specific web page.
+    </p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Jill Smith</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-77854</td>
+        </tr>
+        <tr>
+            <td>555-77854</td>
+        </tr>
+    </table>
+    <article>
+        <header>
+            <h1>What Does WWF Do?</h1>
+            <p>WWF's mission:</p>
+        </header>
+        <p>WWF's mission is to stop the degradation of our planet's natural
+            environment,
+    </article>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+        </nav>
+
+</body>
+
 </html>

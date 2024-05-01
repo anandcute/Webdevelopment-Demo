@@ -23,16 +23,18 @@
     border: solid thin hsl(0, 85%, 3%);
     padding: 10%;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
 #root{
+    
+    border-bottom: 9px;
     text-decoration-line: underline;
-    margin: 2px;
+    margin: 363px;
     color: darkmagenta;
-    background-color: cornsilk;
+    background-color: rgb(157, 213, 26);
     font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 
 }
 strong,i{
