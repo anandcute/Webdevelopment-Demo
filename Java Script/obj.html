@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain {
+            margin-top: 100px;
+            margin-left: 500px;
+            background-color: #03e1e1;
+        }   
+        .employee1{
+            padding: 2%;
+            color: brown;
+            background-color: cornflowerblue;
+            width: 20%;
+            border: 3px solid black;
+            box-shadow: -20px -15px 10px  rgb(184, 4, 103);
+        } 
+        .employee2{
+            margin-top: 5% ;
+            padding: 2%;
+            color:cyan;
+            background-color: blue;
+            width: 20%;
+            border: 3px solid black;
+            box-shadow: 20px 15px 10px  brown;
+        } 
+    </style>
+</head>
+<body class="contain">
+    <h1 style="text-align:justify;">OBJECT</h1>
+    <div class="employee1"> 
+        EMPLOYEE_1 DETAILS
+        <ul>
+            <li id="fname"></li>
+            <li id="lname"></li>
+            <li id="idno"></li>
+            <li id="address"></li>
+            <li id="mobile"></li>
+            
+        </ul>
+    </div>
+    <div class="employee2">
+        EMPLOYEE_2 DETAILS
+        <ul>
+            <li id="fname1"></li>
+            <li id="lname1"></li>
+            <li id="idno1"></li>
+            <li id="address1"></li>
+            <li id="mobile1"></li>
+            
+        </ul>
+    </div>
+
+    <script>
+        let empolyee_1 = {
+            Fname : 'Anand',
+            Lname : 'kumar',
+            Id : 100,
+            Address : 'Chengalpattu',
+            Mobile : 8489079239
+        }
+        let empolyee_2={
+            Fname : 'Prasanth',
+            Lname : 'Kumar',
+            Id : 101 ,
+            Address: empolyee_1.Address,
+            Mobile : empolyee_1.Mobile
+        }
+        document.getElementById("fname").innerHTML="First name:" + empolyee_1.Fname
+        document.getElementById("lname").innerHTML="Last Name:" + empolyee_1.Lname
+        document.getElementById("idno").innerHTML="Employee Id:" + empolyee_1.Id
+        document.getElementById("address").innerHTML="Address:" + empolyee_1.Address
+        document.getElementById("mobile").innerHTML="Mobile:" + empolyee_1.Mobile
+        document.getElementById("fname1").innerHTML="First name:" + empolyee_2.Fname
+        document.getElementById("lname1").innerHTML="Last Name:" + empolyee_2.Lname
+        document.getElementById("idno1").innerHTML="Employee Id:" + empolyee_2.Id
+        document.getElementById("address1").innerHTML="Address:" + empolyee_2.Address
+        document.getElementById("mobile1").innerHTML="Mobile:" + empolyee_2.Mobile
+    </script>
+    
+</body>
+</html>

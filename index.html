@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Calc</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calc</title> 
         <style>
             .container{
                 background-color: cadetblue;
@@ -61,16 +62,16 @@
         </div>
         <div class="box">
             <label for="First number " >FIRST NUMBER:</label>
-            <input type="number"  id="num1" /><br><br>
+            <input type="number"  id="num1" title="" placeholder="FIRST NUM" /><br><br>
             <label for="second number " >SECOND NUMBER:</label>
-            <input type="number"  id="num2" /><br><br>
+            <input type="number"  id="num2" placeholder="SECOND NUMBER:"/><br><br>
             <input type="submit" onclick="add()" value="Addition" />
             <input type="submit" onclick="sub()" value="Subtraction" />
             <input type="submit" onclick="mul()" value="Muplication" />
             <input type="submit" onclick="div()" value="Divition" />
             <input type="submit" onclick="mod()" value="Modulo" /><br><br>
             Result:
-            <input type="text" id="result" />
+            <input type="text" placeholder="SUBMIT" id="result" />
         </div>
 
     </body>
