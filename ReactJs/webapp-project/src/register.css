@@ -1,0 +1,41 @@
+.Register {
+    background-image: url("https://media.istockphoto.com/id/1393356541/photo/sign-up.jpg?s=612x612&w=0&k=20&c=pvhI0g3kNMGgYgXdk1mlBzkbiLfrIBHLEV55CRkWyLg=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 80px;
+    text-align: center;
+   
+    width: 45%;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius:300vh;
+    box-shadow: -10px -50px black ;
+    margin-left:  30%;
+    margin-top: 13%;
+   
+}
+.header1{
+    /* background-color: rgb(240, 255, 241); */
+    width: 400px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.details{
+    border-radius: 200px;
+    text-shadow: 40px;
+    font-size: large;
+    padding: 7px;
+    border: 3px solid yellowgreen;
+}
+.submit,.submit1{
+    background-color: cadetblue;
+    border: 3px solid blue;
+    border-radius: 30px ;
+    
+    font-size: x-large;
+    padding: 10px;
+}
+.submit1{
+   float: inline-start;
+}

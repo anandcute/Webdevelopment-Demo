@@ -1,0 +1,44 @@
+.signin {
+    background-image: url("https://th.bing.com/th/id/OIP.EuHn2mNdaGr-QNb6HGt2DAHaEK?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    text-align: center;
+    background-color:crimson;
+    width: 45%;
+    
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius:300vh 100px;
+    box-shadow: 10px -20px black ;
+    margin-left:  30%;
+    margin-top: 13%;
+   
+}
+.header {
+    background-color: rgb(219, 205, 255);
+    margin-left: 130px;
+    width: 70%;
+    color: white;
+    padding: 0px;
+   border-radius: 90px 10px ;
+
+}
+.details{
+    border-radius: 200px;
+    text-shadow: 40px;
+    font-size: large;
+    padding: 7px;
+    border: 3px solid yellowgreen;
+}
+.submit,.submit1{
+    background-color: cadetblue;
+    border: 3px solid blue;
+    border-radius: 30px ;
+    
+    font-size: x-large;
+    padding: 10px;
+}
+.submit1{
+   float: inline-start;
+}
