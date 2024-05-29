@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Register from './Register';
 import Login from './Login';
 import Setting from './setting';
-
+import State1 from './state';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,7 @@ root.render(
     <Register />
     <App/>
     <Setting/>
+    <State1/>
   </React.StrictMode>
 );
 
